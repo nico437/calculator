@@ -1,3 +1,4 @@
+// Create functions for all of the basic math operators.
 const add = function(a, b) {
 return a + b;
 };
@@ -27,4 +28,7 @@ function operate(num1, num2, operator) {
         return divide(num1, num2);
     }
   };
-  
+
+// Create the functions that populate the display when you click the number buttons. You should be storing the ‘display value’ in a variable somewhere for use in the next step.
+
+
