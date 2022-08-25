@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>calculator</title>
-    <link rel="stylesheet" href="style.css">
-    <h1 class ="calculator">Calculator</h1>
+    <link rel="Calculator with Js" href="style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div id="calculatorDiv">
-    <h1 class="displayText" id="displayText">Display: </h1>
-      <button class="choiceBtn">clear</div>
-      <button class="choiceBtn">+</div>
-      <button class="choiceBtn">-</div>
-      <button class="choiceBtn">*</div>
-      <button class="choiceBtn">/</div>
-      <button class="choiceBtn">9</div>
-      <button class="choiceBtn">8</div>
-      <button class="choiceBtn">7</div>
-      <button class="choiceBtn">6</div>
-      <button class="choiceBtn">5</div>
-      <button class="choiceBtn">4</div>
-      <button class="choiceBtn">3</div>
-      <button class="choiceBtn">2</div>
-      <button class="choiceBtn">1</div>
-      <button class="choiceBtn">0</div>
-      <button class="choiceBtn">.</div>
-      <button class="choiceBtn">=</div>
-    </div>
-	<script src="script.js"></script>
+    <div class="calculator-grid"></div>
+    <div class="output">
+      <div class="previous-operand"></div>
+      <div class="current-operand"></div>
+  </div>
+  <button class="span-two">AC</button>
+  <button>DEL</button>
+  <button>÷</button>
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>*</button>
+  <button>4</button>
+  <button>5</button>
+  <button>6</button>
+  <button>+</button>
+  <button>7</button>
+  <button>8</button>
+  <button>9</button>
+  <button>-</button>
+  <button>.</button>
+  <button>0</button>
+  <button class="span-two">=</button>
+</div>
   </body>
 </html>
